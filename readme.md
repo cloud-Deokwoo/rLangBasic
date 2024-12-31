@@ -430,8 +430,8 @@ is.logical(ps)
 |--------|----------------------------------|--------------------|--------------------------|------------------|
 | `&`    | 벡터의 요소별 논리곱 (AND)        | `a & b`            | `c(TRUE, FALSE) & c(TRUE, TRUE)` | `TRUE FALSE` |
 | `&&`   | 첫 번째 요소만 비교 (AND)         | `a && b`           | `TRUE && FALSE`          | `FALSE`         |
-| `|`    | 벡터의 요소별 논리합 (OR)         | `a | b`            | `c(TRUE, FALSE) | c(FALSE, TRUE)` | `TRUE TRUE` |
-| `||`   | 첫 번째 요소만 비교 (OR)          | `a || b`           | `TRUE || FALSE`          | `TRUE`          |
+| `\|`    | 벡터의 요소별 논리합 (OR)         | `a \| b`            | `c(TRUE, FALSE) \| c(FALSE, TRUE)` | `TRUE TRUE` |
+| `\|\|`   | 첫 번째 요소만 비교 (OR)          | `a \|\| b`           | `TRUE \|\| FALSE`          | `TRUE`          |
 | `!`    | 논리 NOT                         | `!a`               | `!TRUE`                  | `FALSE`         |
 
 <br>
